@@ -1,3 +1,5 @@
+package p1;
+
 import java.io.IOException; 
 import java.io.PrintWriter; 
 import java.util.Calendar; 
@@ -10,7 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 
 
 @WebServlet("/App") 
-
 public class App extends HttpServlet {
     private static final long serialVersionUID = 1L; 
 protected void doGet(HttpServletRequest request, HttpServletResponse response) throws 
