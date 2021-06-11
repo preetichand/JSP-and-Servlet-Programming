@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example3</groupId>
-  <artifactId>practical9</artifactId>
+  <artifactId>practical10</artifactId>
   <version>1.1</version>
   <packaging>war</packaging>
 
-  <name>practical9 Maven Webapp</name>
+  <name>practical10 Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -28,16 +28,18 @@
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-servlet-api -->
-<dependency>
-  <groupId>org.apache.tomcat</groupId>
-  <artifactId>tomcat-servlet-api</artifactId>
-  <version>10.0.2</version>
-</dependency>
-
+    
+    <dependency>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>tomcat-servlet-api</artifactId>
+      <version>10.0.2</version>
+    </dependency>
+    
+    
   </dependencies>
 
   <build>
-    <finalName>practical9</finalName>
+    <finalName>practical10</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
